@@ -15,8 +15,10 @@
 .header__logo{
     width: 200px;
     height: 150px;
-    
 }
+
+
+
 
 .header__lista{
     display: inline-flex;
@@ -172,7 +174,10 @@ color: white;
     justify-content: space-between;
 }
 
-
+a:hover{
+    background-color: white;
+    color: black;
+}
 
 
 
@@ -216,7 +221,6 @@ color: white;
 
     }
 }
-
 
 
 
