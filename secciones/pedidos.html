@@ -17,7 +17,7 @@
                 <nav class="navbar navbar-light bg-light">
                     <div class="container">
                       <a class="navbar-brand" href="#">
-                        <img src="../assets/fulanitas.jpg" alt="" width="250" height="150">
+                        <img src="../assets/fulanitas.jpg" alt="" width="250" height="200">
                       </a>
                     </div>
                   </nav>
@@ -47,31 +47,33 @@
           </nav>
     </header>
     <main class="pedidos">
-
     <form action="#" method="get">
         <fieldset class="pedidos__pedidos">
-            <legend class="pedidos__presupuesto">Presupuesto</legend>
-            <label class="pedidos__label" for="name">Nombre</label>
-            <input type="text" name="user_name" id="name"placeholder="Introduzca su Nombre">
-            <br>
-            <label class="pedidos__label" for="lastname">Apellido</label>
-            <input type="text" name="user_lastname" id="lastname" placeholder="Introduza su Apellido">
-            <br>
-            <label class="pedidos__label" for="email">Correo Electrónico</label>
-            <input type="email" name="user_email" id="email" placeholder="Intruduzca su correo">
-            <br>
-            <label class="pedidos__label" for="direccion">Dirección</label>
-            <input type="text" name="user_direction" id="direccion" placeholder="Intruduzca su dirección">
-            <br>
-            <label class="pedidos__label" for="pedido"></label>
-            <textarea name="pedidos" id="pedido" cols="30" rows="10" placeholder="Haga su Pedido Aquí"></textarea>
-            <br>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dirección">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Haga su pedido</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
         </fieldset>
         <input class="pedidos__boton" type="submit" value="Enviar Pedido">
         <input class="pedidos__boton" type="reset" value="Borrar Pedido">
-       
     </form>
-    </main>
+</main>
     <footer class="footer">
         <div class="footer__div">Encontranos en: 
                  <iframe class="footer__redes" src="https://www.facebook.com/fulanitasfrascos" frameborder="0"></iframe>

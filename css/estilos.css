@@ -73,8 +73,9 @@
     width: 200px;
     height: 150px;
     margin: auto;
-
+    
  }
+
 
 .main__parrafo{
     display: flex;
@@ -180,7 +181,7 @@ color: white;
 }
 
 a:hover{
-    background-color: white;
+    background-color: silver;
     color: black;
 }
 
