@@ -1,0 +1,25 @@
+{
+  "name": "proyectojeremiasdiaz",
+  "version": "1.0.0",
+  "description": "proyecto coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremiasDiaz1/repoproyectocoder.git"
+  },
+  "author": "jeremias diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeremiasDiaz1/repoproyectocoder/issues"
+  },
+  "homepage": "https://github.com/JeremiasDiaz1/repoproyectocoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
