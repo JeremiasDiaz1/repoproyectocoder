@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    margin-right: 50px;
+    
+}
+
+.main{
+    background-color: black;
+    display: inline-flex;
+    padding: 100px;
+    height: 100vh;
+    
+    &__ancor{
+        color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+     &__imagen{
+        display: block;
+        width: 200px;
+        height: 150px;
+        margin: auto;
+     }
+    &__parrafo{
+        display: flex;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        padding: 20px 50px 20px 50px;
+        margin-top: 25px;
+    }
+
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-top: white solid 9px;
+    
+    &__div{
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial;
+    }
+    
+    &__redes{
+        display: none;
+    }
+     &__img{
+        padding-inline-end: 10px;
+         width: 50px;
+         height: 50px;  
+     }
+    
+    &__inframe{
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+.productos{
+    padding: 150px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/* colores redes sociales */ 
+
+.bi-instagram{
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.bi-facebook{ 
+    color: blue;
+}
+
+a:hover{
+    background-color: silver;
+    color: black;
+}
+

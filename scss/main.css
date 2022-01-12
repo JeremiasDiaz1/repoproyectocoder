@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.main {
+  background-color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 100px;
+  height: 100vh;
+}
+
+.main__ancor {
+  color: white;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.main__imagen {
+  display: block;
+  width: 200px;
+  height: 150px;
+  margin: auto;
+}
+
+.main__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  margin-top: 25px;
+}
+
+.footer {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  border-top: white solid 9px;
+}
+
+.footer__div {
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+
+.footer__redes {
+  display: none;
+}
+
+.footer__img {
+  -webkit-padding-end: 10px;
+          padding-inline-end: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer__inframe {
+  width: 120px;
+  height: 120px;
+}
+
+.productos {
+  padding: 150px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+  -ms-grid-rows: 150px 150px 150px 150px 150px 150px;
+      grid-template-rows: 150px 150px 150px 150px 150px 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* colores redes sociales */
+.bi-instagram {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bi-facebook {
+  color: blue;
+}
+
+a:hover {
+  background-color: silver;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
