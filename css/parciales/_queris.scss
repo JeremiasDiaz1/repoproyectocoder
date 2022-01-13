@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) { 
+    .header__lista{ 
+        flex-wrap: wrap;
+    }
+    .header__logo{ 
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        height: 100%;    
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nosotros{
+        flex-direction: column;
+        padding: 10px;
+        height: 100%;
+    }
+    .pedidos{
+        flex-direction: column;
+        padding: 35px;
+        height: 100%;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+}
