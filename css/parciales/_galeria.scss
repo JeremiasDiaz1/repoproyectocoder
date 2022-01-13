@@ -12,14 +12,13 @@
     }
 }
 .carousel{
-    width: 700px;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.carousel-item{
-    width: 500px;
-    height: 500px;
-
+    width: 1000px;
+    height: 1000px;
+    
+    &-item{
+        width: 700px;
+        height: 700px;
+        
+    
+    }
 }
