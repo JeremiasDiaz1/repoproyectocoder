@@ -1,0 +1,15 @@
+.nosotros{
+    background-color: black;
+    display: inline-flex;
+    padding: 100px;
+    height: 100vh;
+    
+    &__parrafo{
+        display: flex;
+        text-align: justify;
+        text-overflow: initial;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      
+    }
+}

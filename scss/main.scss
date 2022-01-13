@@ -6,7 +6,6 @@
 
 .nav-item{
     margin-right: 50px;
-    
 }
 
 .main{
@@ -36,28 +35,17 @@
         padding: 20px 50px 20px 50px;
         margin-top: 25px;
     }
-
 }
 
-
-
-.productos{
-    padding: 150px;
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px;
-    justify-content: space-between;
-}
-
+@import"../css/parciales/galeria";
+@import"../css/parciales/nosotros";
+@import"../css/parciales/pedidos";
+@import"../css/parciales/productos";
 @import "../css/parciales/footer";
 @import"../css/parciales/redes";
+@import "../css/parciales/queris"; 
 
 a:hover{
     background-color: silver;
     color: black;
 }
-
-@import "../css/parciales/queris"; 
