@@ -23,7 +23,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+              <div class="navbar-collapse collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">INICIO</a>
@@ -45,23 +45,45 @@
             </div>
           </nav>
     </header>
-    <main class="main">
-        <article class="main__article">
-            <a  class="main__ancor" href="./secciones/galeria.html">Galeria</a>
-            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/album.png" alt="Imagen Ilustrativa" width="100px">
-            <p class="main__parrafo">Pasa a hechar un vistazo de algunas de algunos de los pedidos que hemos hecho.</p>
-        </article>
-        <article class="main__article">
-            <a class="main__ancor" href="./secciones/productos.html">Nuestros Productos</a>
-            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/make your.jpg" alt="Imagen Ilustrativa" width="100px">
-            <p class="main__parrafo">Conoce la gran variedad de productos que tenemos, a los que podes agregarle la frase que vos quieras.</p>
-        </article>
-        <article class="main__article">
-            <a class="main__ancor" href="./secciones/nosotros.html">Nosotros</a>
-            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/nosotros.jpg" alt="Imagen ilustrativa" width="100px">
-            <p class="main__parrafo">Te contamos un poco como surgío este hermoso emprendimiento.</p>
-        </article>
-   
+    <main class="main container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/galeria-de-imagenes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Galeria</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <a href="./secciones/galeria.html" class="btn">Ir a la galeria</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/imagen pedidos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Presupuestos</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <a href="./secciones/pedidos.html" class="btn">Hace tu pedido</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/taza unicornio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nosotros</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <a href="./secciones/nosotros.html" class="btn">Ir a Historia</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
   <footer class="text-center text-white" style="background-color: black;">

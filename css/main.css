@@ -10,25 +10,34 @@
   background-color: black;
   display: inline-flex;
   padding: 100px;
-  height: 100vh; }
-  .main__ancor {
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none; }
-  .main__imagen {
-    display: block;
-    width: 200px;
-    height: 150px;
-    margin: auto; }
-  .main__parrafo {
-    display: flex;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-    padding: 20px 50px 20px 50px;
-    margin-top: 25px; }
+  width: 100%; }
+
+.card {
+  background-color: black; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a:hover {
+  background-color: silver;
+  color: black; }
+
+.card-title {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.card-text {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
 .galeria {
   padding: 150px;
@@ -69,6 +78,9 @@
   .pedidos__presupuesto {
     color: white; }
 
+.btn-enviar {
+  background-color: green; }
+
 .productos {
   padding: 150px;
   background-color: black;
@@ -84,41 +96,24 @@
   .productos__piedefoto {
     color: white; }
 
-.footer {
-  background-color: black;
-  display: flex;
-  justify-content: end;
-  border-top: white solid 9px; }
-  .footer__div {
-    color: white;
-    text-transform: uppercase;
-    font-family: Arial; }
-  .footer__redes {
-    display: none; }
-  .footer__img {
-    padding-inline-end: 10px;
-    width: 50px;
-    height: 50px; }
-  .footer__inframe {
-    width: 120px;
-    height: 120px; }
-
 .bi {
   margin-inline-end: 15px; }
   .bi-instagram {
-    color: #fff;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); }
+  .bi-facebook, .bi-instagram, .bi-twitter {
     width: 35px;
     height: 35px; }
-  .bi-facebook {
-    color: blue;
-    width: 35px;
-    height: 35px; }
-  .bi-twitter {
-    width: 35px;
-    height: 35px; }
+
+.bi-facebook, .bi-instagram, .bi-twitter {
+  color: blue; }
+
+.bi-twitter {
+  color: #1DA1F2; }
+
+.bi-instagram {
+  color: #fff; }
 
 @media screen and (max-width: 768px) {
   .header__lista {
@@ -170,7 +165,3 @@
     .carousel-item {
       width: 500px;
       height: 500px; } }
-
-a:hover {
-  background-color: silver;
-  color: black; }

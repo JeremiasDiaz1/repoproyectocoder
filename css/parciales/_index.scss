@@ -1,0 +1,45 @@
+.nav-item{
+    margin-right: 50px;
+}
+
+.main{
+    background-color: black;
+    display: inline-flex;
+    padding: 100px;
+    width: 100%;
+    
+}
+
+.card{
+    background-color: black;
+
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    background-color: silver;
+    color: black;
+}
+
+@mixin bg-color-centrado {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    @include bg-color-centrado();
+    
+}
+
+.card-text{
+    @include bg-color-centrado();
+    text-align: center;
+}
+

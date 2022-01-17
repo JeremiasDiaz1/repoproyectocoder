@@ -1,22 +1,36 @@
 .bi{ 
     margin-inline-end: 15px;
     &-instagram{
-        color: #fff;
         background: #d6249f;
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-        width: 35px;
-        height: 35px;
+        @extend .bi-facebook;
     }
     
     &-facebook{ 
-        color: blue;
         width: 35px;
         height: 35px;
     }
     
     &-twitter{ 
-        width: 35px;
-        height: 35px;
+        @extend .bi-facebook;
     }
 }
+
+$redes:(
+    "facebook": blue,
+    "twitter": #1DA1F2,
+    "instagram": #fff,
+);
+
+.bi-facebook{
+    color:map-get($redes, facebook);
+}
+.bi-twitter{
+    color:map-get($redes, twitter);
+}
+.bi-instagram{
+    color:map-get($redes, instagram);
+}
+
+

@@ -1,0 +1,19 @@
+afdfd 
+  <main class="main">
+        <article class="main__article">
+            <a  class="main__ancor" href="./secciones/galeria.html">Galeria</a>
+            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/galeria-de-imagenes.png" alt="Imagen Ilustrativa" width="100px">
+            <p class="main__parrafo">Pasa a hechar un vistazo de algunas de algunos de los pedidos que hemos hecho.</p>
+        </article>
+        <article class="main__article">
+            <a class="main__ancor" href="./secciones/productos.html">Nuestros Productos</a>
+            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/make your.jpg" alt="Imagen Ilustrativa" width="100px">
+            <p class="main__parrafo">Conoce la gran variedad de productos que tenemos, a los que podes agregarle la frase que vos quieras.</p>
+        </article>
+        <article class="main__article">
+            <a class="main__ancor" href="./secciones/nosotros.html">Nosotros</a>
+            <img data-aos="zoom-in-down" class="main__imagen" src="./assets/nosotros.jpg" alt="Imagen ilustrativa" width="100px">
+            <p class="main__parrafo">Te contamos un poco como surgío este hermoso emprendimiento.</p>
+        </article>
+   
+    </main>
