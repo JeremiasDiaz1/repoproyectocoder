@@ -1,18 +1,6 @@
 .productos{
     padding: 150px;
     background-color: black;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px;
-    justify-content: space-between;
     
-    &__img{
-        width: 100px;
-        height: 100px;
-    }
-    &__piedefoto{
-        color: white;
-        }
 }

@@ -12,11 +12,6 @@
         height: 100%;    
     }
 
-    .galeria{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
     .nosotros{
         flex-direction: column;
         padding: 10px;
@@ -27,51 +22,5 @@
         padding: 35px;
         height: 100%;
     }
-    .productos{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .carousel{
-        width: 175px;
-        height: 175px;
-        
-        &-item{
-            width: 100px;
-            height: 100px;
-        
-        }
-    }
-}
-
-@media screen and (min-width: 425px) {
-    .carousel{
-        width: 275px;
-        height: 275px;
-        
-        &-item{
-            width: 200px;
-            height: 200px;
-        
-        }
-    }
-    
-}
-
-@media screen and (min-width: 768px) {
-    .carousel{
-        width: 600px;
-        height: 600px;
-        
-        &-item{
-            width: 500px;
-            height: 500px;
-        
-        }
-    }
-    
+   
 }

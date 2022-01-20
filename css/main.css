@@ -42,30 +42,15 @@ a:hover {
 
 .galeria {
   padding: 150px;
-  background-color: black;
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px 150px 150px 150px;
-  justify-content: space-between; }
-  .galeria__img {
-    width: 100px;
-    height: 100px; }
-
-.carousel {
-  width: 1000px;
-  height: 1000px; }
-  .carousel-item {
-    width: 700px;
-    height: 700px; }
+  background-color: black; }
 
 .nosotros {
   background-color: black;
-  display: inline-flex;
   padding: 100px;
   height: 100vh; }
   .nosotros__parrafo {
     display: flex;
-    text-align: justify;
+    justify-content: center;
     text-overflow: initial;
     font-family: Arial, Helvetica, sans-serif;
     color: white; }
@@ -85,17 +70,7 @@ a:hover {
 .productos {
   padding: 150px;
   background-color: black;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px 150px 150px 150px;
-  justify-content: space-between; }
-  .productos__img {
-    width: 100px;
-    height: 100px; }
-  .productos__piedefoto {
-    color: white; }
+  font-family: Arial, Helvetica, sans-serif; }
 
 .bi {
   margin-inline-end: 15px; }
@@ -126,10 +101,6 @@ a:hover {
     flex-direction: column;
     padding: 10px;
     height: 100%; }
-  .galeria {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; }
   .nosotros {
     flex-direction: column;
     padding: 10px;
@@ -137,32 +108,4 @@ a:hover {
   .pedidos {
     flex-direction: column;
     padding: 35px;
-    height: 100%; }
-  .productos {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; } }
-
-@media screen and (max-width: 375px) {
-  .carousel {
-    width: 175px;
-    height: 175px; }
-    .carousel-item {
-      width: 100px;
-      height: 100px; } }
-
-@media screen and (min-width: 425px) {
-  .carousel {
-    width: 275px;
-    height: 275px; }
-    .carousel-item {
-      width: 200px;
-      height: 200px; } }
-
-@media screen and (min-width: 768px) {
-  .carousel {
-    width: 600px;
-    height: 600px; }
-    .carousel-item {
-      width: 500px;
-      height: 500px; } }
+    height: 100%; } }
